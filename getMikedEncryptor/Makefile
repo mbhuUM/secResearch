@@ -1,4 +1,4 @@
-CC=g++ -g -Wall -fno-builtin -std=c++17
+CC=g++ -g -Wall -fno-builtin -I"C:\Program Files (x86)\Windows Kits\10\Include\..." -std=c++17 
 
 # List of source files for your pager
 SOURCES=

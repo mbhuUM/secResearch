@@ -9,7 +9,7 @@ OBJS=${SOURCES:.cpp=.o}
 all: app
 
 # Compile an application program
-app: main.cpp 
+app: cpp/main.cpp 
 	${CC} -o $@ $^ -ldl
 
 # Generic rules for compiling a source file to an object file

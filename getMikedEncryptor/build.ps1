@@ -1,4 +1,4 @@
-$sourceFiles = @("main.cpp")
+$sourceFiles = @("cpp/main.cpp")
 $outputName = "app.exe"
 
 # Join the files with spaces

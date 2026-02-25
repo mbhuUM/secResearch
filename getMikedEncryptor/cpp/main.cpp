@@ -13,8 +13,13 @@ class crypto {
         std::string file;
         char c;
     public:
-        
+        void encrypt();
+        void decrypt();
 };
+
+void crypto::encrypt() {
+    
+}
 
 void readFile(std::string path) {
     std::ofstream file;
